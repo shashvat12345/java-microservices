@@ -19,7 +19,7 @@ public class AdditionController {
 
 		int augend1 = Integer.valueOf(addend1);
 		int augend2 = Integer.valueOf(addend2);
-		int sum = augend1 * augend2;
+		int sum = augend1 + augend2;
 		logger.info("Addition is "+sum);
 		return "{\"addend1\":\"" + addend1 + "\", \"addend2\":\"" + addend2 + "\", \"sum\": \"" + sum + "\"}";
 	}
