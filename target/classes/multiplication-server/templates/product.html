@@ -1,0 +1,12 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"> 
+<head> 
+    <title>Product</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head> 
+<body> 
+    <h1>Product</h1> 
+    <p th:if="${json.error}">Error: <b th:text="${json.error}">json</b></p> 
+    <p th:if="${json.product}">JSON result received from Multiplication Service: <b th:text="${json}">json</b></p> 
+</body> 
+</html>
