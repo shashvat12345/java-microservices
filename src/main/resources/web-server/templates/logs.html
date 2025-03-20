@@ -1,0 +1,14 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"> 
+<head th:replace="header :: copy"></head> 
+<body> 
+    <h1>Application Logs</h1> 
+    <div> 
+        <h2>Detected Issues and Logs:</h2> 
+        <ul> 
+            <li th:each="log : ${logs}" th:text="${log}">Log entry</li> 
+        </ul> 
+    </div> 
+    <div th:replace="footer :: copy"></div> 
+</body> 
+</html>
