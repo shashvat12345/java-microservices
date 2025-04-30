@@ -1,0 +1,21 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"> 
+<head th:replace="header :: copy"></head> 
+<body> 
+    <h1>Modulus Operation</h1> 
+    <form action="/modulus"> 
+        Dividend:<br> 
+        <input type="number" name="dividend" value="0" required> 
+        <br> 
+        Divisor:<br> 
+        <input type="number" name="divisor" value="1" required> 
+        <br><br> 
+        <input type="submit" value="Submit"> 
+    </form> 
+    <div th:if="${json}"> 
+        <h2>Result</h2> 
+        <p>JSON result received from Modulus Service: <b th:text="${json}">json</b></p> 
+    </div> 
+    <div th:replace="footer :: copy"></div> 
+</body> 
+</html> 
