@@ -1,13 +1,13 @@
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\web\HomeController.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\rest\subtraction\HomeController.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\web\WebAdditionService.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\rest\addition\HomeController.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\web\WebServer.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\registration\EurekaServer.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\rest\subtraction\SubtractionController.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\rest\subtraction\SubtractionServer.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\rest\addition\AdditionController.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\rest\addition\AdditionServer.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\web\WebArithmeticController.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\Main.java
-C:\Java\spring-boot-microservices\spring-boot-microservices\src\main\java\com\microservices\example\web\WebSubtractionService.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\registration\EurekaServer.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\rest\subtraction\SubtractionController.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\web\HomeController.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\web\WebArithmeticController.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\web\WebServer.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\web\WebSubtractionService.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\Main.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\rest\subtraction\SubtractionServer.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\rest\addition\AdditionController.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\web\WebAdditionService.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\rest\subtraction\HomeController.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\rest\addition\AdditionServer.java
+C:\Users\rohit_sharma7\Desktop\git repo\java-microservices\src\main\java\com\microservices\example\rest\addition\HomeController.java
