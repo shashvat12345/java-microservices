@@ -1,0 +1,17 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"> 
+<head th:replace="header :: copy"></head> 
+<body> 
+    <h1>Multiplication</h1> 
+    <form action="/multiply"> 
+        First number:<br> 
+        <input type="number" name="multiplicand" value="1"> 
+        <br> 
+        Second number:<br> 
+        <input type="number" name="multiplier" value="1"> 
+        <br><br> 
+        <input type="submit" value="Multiply"> 
+    </form> 
+    <div th:replace="footer :: copy"></div> 
+</body> 
+</html> 
