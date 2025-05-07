@@ -1,0 +1,18 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"> 
+<head th:replace="header :: copy"></head> 
+<body> 
+    <h1>Division Server</h1> 
+    <p>Perform Division Operation</p> 
+    <form action="/divide"> 
+        Dividend:<br> 
+        <input type="number" name="dividend" value="0" required> 
+        <br> 
+        Divisor:<br> 
+        <input type="number" name="divisor" value="1" required> 
+        <br><br> 
+        <input type="submit" value="Submit"> 
+    </form> 
+    <div th:replace="footer :: copy"></div> 
+</body> 
+</html> 

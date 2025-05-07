@@ -1,0 +1,14 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"> 
+<head th:replace="header :: copy"></head> 
+<body> 
+    <h1>Quotient</h1> 
+    <div th:if="${error}"> 
+        <p style="color: red;"><b th:text="${error}">Error message</b></p> 
+    </div> 
+    <div th:if="${json}"> 
+        <p>JSON result received from Division Service: <b th:text="${json}">json</b></p> 
+    </div> 
+    <div th:replace="footer :: copy"></div> 
+</body> 
+</html>
